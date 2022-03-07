@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: chatbot
+server:
+  port: 9000
+  cloud:
+    compatibility-verifier:
+      enabled: false
+
+eureka:
+  instance:
+    preferIpAddress: true
+  client:
+    #healthcheck:
+    # enabled: false
+    service-url:
+      defaultZone: http://localhost:8089/eureka
+    fetch-registry: true
+    register-with-eureka: true

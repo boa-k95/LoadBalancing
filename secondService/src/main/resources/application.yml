@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: Second Service Apllication
+server:
+  port: 8082

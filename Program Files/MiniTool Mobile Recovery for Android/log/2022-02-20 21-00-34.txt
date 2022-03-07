@@ -1,0 +1,1326 @@
+========== log start ========== 
+
+9 setEnabled true QCheckBox(0x1684f462050, name = "chkContacts")
+18 setEnabled true QCheckBox(0x1684f18f480, name = "chkOther")
+17 setEnabled true QCheckBox(0x1684f18ed80, name = "chkPlainText")
+2 setEnabled true QCheckBox(0x1684f468110, name = "chkCamera")
+12 setEnabled true QCheckBox(0x1684f18e5c0, name = "chkWhatsAppAtt")
+10 setEnabled true QCheckBox(0x1684f461ad0, name = "chkCallHistory")
+3 setEnabled true QCheckBox(0x1684f467a90, name = "chkScreenshot")
+7 setEnabled true QCheckBox(0x1684f461f10, name = "chkMessagesAndCallLog")
+13 setEnabled true QCheckBox(0x1684f18dc40, name = "chkRAWAndDocument")
+0 setEnabled true QCheckBox(0x1684f467710, name = "chkDataAll")
+4 setEnabled true QCheckBox(0x1684f468950, name = "chkAppPicture")
+11 setEnabled true QCheckBox(0x1684f461890, name = "chkWhatsApp")
+14 setEnabled true QCheckBox(0x1684f18e540, name = "chkPicture")
+1 setEnabled true QCheckBox(0x1684f467b10, name = "chkPhotosAndVideos")
+16 setEnabled true QCheckBox(0x1684f18e980, name = "chkOffice")
+5 setEnabled true QCheckBox(0x1684f468c50, name = "chkRecording")
+15 setEnabled true QCheckBox(0x1684f18f180, name = "chkMultimedia")
+8 setEnabled true QCheckBox(0x1684f462250, name = "chkMessages")
+6 setEnabled true QCheckBox(0x1684f468e10, name = "chkMusic")
+Unknown property corlor
+Unknown property corlor
+Unknown property corlor
+Unknown property corlor
+Unknown property corlor
+Unknown property corlor
+Unknown property corlor
+Unknown property corlor
+mouse move
++ connect  DataAnalyser(0x1684af31ba0) 's signal  "doDataItem(DataItem)"  to  UserInterface(0x1684af881c0) 's slot  "onDataItem(DataItem)"
++ connect  DataAnalyser(0x1684af31ba0) 's signal  "doDataItem(DataItem)"  to  DataExporter(0x1684af87ce0) 's slot  "onDataItem(DataItem)"
++ connect  DataAnalyser(0x1684af31ba0) 's signal  "doAnalysisFinished(bool)"  to  UserInterface(0x1684af881c0) 's slot  "onAnalysisFinished(bool)"
++ connect  DataAnalyser(0x1684af31ba0) 's signal  "doAnalysisFinished(bool)"  to  DataDriver(0x1684af319c0) 's slot  "onAnalysisFinished(bool)"
++ connect  UserInterface(0x1684af881c0) 's signal  "doRegister(QString)"  to  DataDriver(0x1684af319c0) 's slot  "onRegister(QString)"
++ connect  UserInterface(0x1684af881c0) 's signal  "doRegister(QString)"  to  RegManager(0x1684af87d60) 's slot  "onRegister(QString)"
++ connect  UserInterface(0x1684af881c0) 's signal  "doRegisterLocal(QString,QString)"  to  DataDriver(0x1684af319c0) 's slot  "onRegisterLocal(QString,QString)"
++ connect  UserInterface(0x1684af881c0) 's signal  "doRegisterLocal(QString,QString)"  to  RegManager(0x1684af87d60) 's slot  "onRegisterLocal(QString,QString)"
++ connect  UserInterface(0x1684af881c0) 's signal  "doStopScan()"  to  DataDriver(0x1684af319c0) 's slot  "onStopScan()"
++ connect  UserInterface(0x1684af881c0) 's signal  "doStopScan()"  to  DataAnalyser(0x1684af31ba0) 's slot  "onStopScan()"
++ connect  UserInterface(0x1684af881c0) 's signal  "doStopScan()"  to  FSData(0x1684e8c93f0) 's slot  "onStopScan()"
++ connect  UserInterface(0x1684af881c0) 's signal  "doStopScan()"  to  NormalDataTransfer(0x1684af87e80) 's slot  "onStopScan()"
++ connect  UserInterface(0x1684af881c0) 's signal  "doReset()"  to  DataDriver(0x1684af319c0) 's slot  "onReset()"
++ connect  UserInterface(0x1684af881c0) 's signal  "doReset()"  to  AndroidDevice(0x1684e8a27c0) 's slot  "onReset()"
++ connect  UserInterface(0x1684af881c0) 's signal  "doReset()"  to  FSData(0x1684e8c93f0) 's slot  "onReset()"
++ connect  UserInterface(0x1684af881c0) 's signal  "doReset()"  to  NormalDataTransfer(0x1684af87e80) 's slot  "onReset()"
++ connect  UserInterface(0x1684af881c0) 's signal  "doReset()"  to  DataExporter(0x1684af87ce0) 's slot  "onReset()"
++ connect  UserInterface(0x1684af881c0) 's signal  "doNDownload(QList<ExportFileType>)"  to  NormalDataTransfer(0x1684af87e80) 's slot  "onNDownload(QList<ExportFileType>)"
++ connect  UserInterface(0x1684af881c0) 's signal  "doDownload(QList<ExportFileType>)"  to  DataTransfer(0x1684af87ee0) 's slot  "onDownload(QList<ExportFileType>)"
++ connect  UserInterface(0x1684af881c0) 's signal  "doStopDownLoad()"  to  DataTransfer(0x1684af87ee0) 's slot  "onStopDownLoad()"
++ connect  UserInterface(0x1684af881c0) 's signal  "doStopDownLoad()"  to  FSData(0x1684e8c93f0) 's slot  "onStopDownLoad()"
++ connect  UserInterface(0x1684af881c0) 's signal  "doExport(QList<int>,QString,bool)"  to  DataExporter(0x1684af87ce0) 's slot  "onExport(QList<int>,QString,bool)"
++ connect  UserInterface(0x1684af881c0) 's signal  "doStopExport()"  to  DataExporter(0x1684af87ce0) 's slot  "onStopExport()"
++ connect  UserInterface(0x1684af881c0) 's signal  "doSdCardDownload(QString)"  to  DataTransfer(0x1684af87ee0) 's slot  "onSdCardDownload(QString)"
++ connect  UserInterface(0x1684af881c0) 's signal  "doDataItem(DataItem)"  to  UserInterface(0x1684af881c0) 's slot  "onDataItem(DataItem)"
++ connect  UserInterface(0x1684af881c0) 's signal  "doDataItem(DataItem)"  to  DataExporter(0x1684af87ce0) 's slot  "onDataItem(DataItem)"
++ connect  UserInterface(0x1684af881c0) 's signal  "doImgScanByCmd(QString)"  to  FSData(0x1684e8c93f0) 's slot  "onImgScanByCmd(QString)"
++ connect  UserInterface(0x1684af881c0) 's signal  "doDriverCheck(QString,bool)"  to  AndroidDevice(0x1684e8a27c0) 's slot  "onDriverCheck(QString,bool)"
++ connect  UserInterface(0x1684af881c0) 's signal  "doDriverCheckInitiation()"  to  AndroidDevice(0x1684e8a27c0) 's slot  "onDriverCheckInitiation()"
++ connect  UserInterface(0x1684af881c0) 's signal  "doCancelDriverDownload()"  to  AndroidDevice(0x1684e8a27c0) 's slot  "onCancelDriverDownload()"
++ connect  DataExporter(0x1684af87ce0) 's signal  "doRecoverProgress(int,int)"  to  UserInterface(0x1684af881c0) 's slot  "onRecoverProgress(int,int)"
++ connect  DataExporter(0x1684af87ce0) 's signal  "doRecoverFinished(QString)"  to  UserInterface(0x1684af881c0) 's slot  "onRecoverFinished(QString)"
++ connect  DataTransfer(0x1684af87ee0) 's signal  "doAndroidInfo(AndroidInfo)"  to  UserInterface(0x1684af881c0) 's slot  "onAndroidInfo(AndroidInfo)"
++ connect  DataTransfer(0x1684af87ee0) 's signal  "doAndroidInfo(AndroidInfo)"  to  AndroidDevice(0x1684e8a27c0) 's slot  "onAndroidInfo(AndroidInfo)"
++ connect  DataTransfer(0x1684af87ee0) 's signal  "doAndroidInfo(AndroidInfo)"  to  DataTransfer(0x1684af87ee0) 's slot  "onAndroidInfo(AndroidInfo)"
++ connect  DataTransfer(0x1684af87ee0) 's signal  "doImgPath(QString)"  to  FSData(0x1684e8c93f0) 's slot  "onImgPath(QString)"
++ connect  DataTransfer(0x1684af87ee0) 's signal  "doFsDataStartScan(QList<ExportFileType>)"  to  FSData(0x1684e8c93f0) 's slot  "onFsDataStartScan(QList<ExportFileType>)"
++ connect  DataTransfer(0x1684af87ee0) 's signal  "doSdDataStartScan(QString)"  to  FSData(0x1684e8c93f0) 's slot  "onSdDataStartScan(QString)"
++ connect  DataTransfer(0x1684af87ee0) 's signal  "doVolumeSizeWarnning(bool)"  to  UserInterface(0x1684af881c0) 's slot  "onVolumeSizeWarnning(bool)"
++ connect  FSData(0x1684e8c93f0) 's signal  "doAndroidInfo(AndroidInfo)"  to  UserInterface(0x1684af881c0) 's slot  "onAndroidInfo(AndroidInfo)"
++ connect  FSData(0x1684e8c93f0) 's signal  "doAndroidInfo(AndroidInfo)"  to  AndroidDevice(0x1684e8a27c0) 's slot  "onAndroidInfo(AndroidInfo)"
++ connect  FSData(0x1684e8c93f0) 's signal  "doAndroidInfo(AndroidInfo)"  to  DataTransfer(0x1684af87ee0) 's slot  "onAndroidInfo(AndroidInfo)"
++ connect  FSData(0x1684e8c93f0) 's signal  "doCallDbFile(QString)"  to  DataDriver(0x1684af319c0) 's slot  "onCallDbFile(QString)"
++ connect  FSData(0x1684e8c93f0) 's signal  "doCallDbFile(QString)"  to  DataAnalyser(0x1684af31ba0) 's slot  "onCallDbFile(QString)"
++ connect  FSData(0x1684e8c93f0) 's signal  "doContactDbFile(QString)"  to  DataDriver(0x1684af319c0) 's slot  "onContactDbFile(QString)"
++ connect  FSData(0x1684e8c93f0) 's signal  "doContactDbFile(QString)"  to  DataAnalyser(0x1684af31ba0) 's slot  "onContactDbFile(QString)"
++ connect  FSData(0x1684e8c93f0) 's signal  "doMessageDbFile(QString)"  to  DataDriver(0x1684af319c0) 's slot  "onMessageDbFile(QString)"
++ connect  FSData(0x1684e8c93f0) 's signal  "doMessageDbFile(QString)"  to  DataAnalyser(0x1684af31ba0) 's slot  "onMessageDbFile(QString)"
+mouse move
++ connect  FSData(0x1684e8c93f0) 's signal  "doWhatsAppDbFile(QString)"  to  DataDriver(0x1684af319c0) 's slot  "onWhatsAppDbFile(QString)"
++ connect  FSData(0x1684e8c93f0) 's signal  "doWhatsAppDbFile(QString)"  to  DataAnalyser(0x1684af31ba0) 's slot  "onWhatsAppDbFile(QString)"
++ connect  FSData(0x1684e8c93f0) 's signal  "doDataItem(DataItem)"  to  UserInterface(0x1684af881c0) 's slot  "onDataItem(DataItem)"
++ connect  FSData(0x1684e8c93f0) 's signal  "doDataItem(DataItem)"  to  DataExporter(0x1684af87ce0) 's slot  "onDataItem(DataItem)"
++ connect  FSData(0x1684e8c93f0) 's signal  "doScanProgress(int,int)"  to  UserInterface(0x1684af881c0) 's slot  "onScanProgress(int,int)"
++ connect  FSData(0x1684e8c93f0) 's signal  "doScanFinished(bool)"  to  UserInterface(0x1684af881c0) 's slot  "onScanFinished(bool)"
++ connect  FSData(0x1684e8c93f0) 's signal  "doScanFinished(bool)"  to  DataDriver(0x1684af319c0) 's slot  "onScanFinished(bool)"
++ connect  FSData(0x1684e8c93f0) 's signal  "doSmsAttachmentPath(QString)"  to  UserInterface(0x1684af881c0) 's slot  "onSmsAttachmentPath(QString)"
++ connect  FSData(0x1684e8c93f0) 's signal  "doSmsAttachmentPath(QString)"  to  DataExporter(0x1684af87ce0) 's slot  "onSmsAttachmentPath(QString)"
++ connect  FSData(0x1684e8c93f0) 's signal  "doSdVolumNames(QHash<QString,QPair<QString,QString> >)"  to  UserInterface(0x1684af881c0) 's slot  "onSdVolumNames(QHash<QString,QPair<QString,QString> >)"
++ connect  FSData(0x1684e8c93f0) 's signal  "doGetDbAndNameListForFs(QString)"  to  NormalDataTransfer(0x1684af87e80) 's slot  "onGetDbAndNameListForFs(QString)"
++ connect  FSData(0x1684e8c93f0) 's signal  "doDeviceOpenFailed()"  to  UserInterface(0x1684af881c0) 's slot  "onDeviceOpenFailed()"
++ connect  RegManager(0x1684af87d60) 's signal  "doRegsiterInfo(RegInfo)"  to  UserInterface(0x1684af881c0) 's slot  "onRegsiterInfo(RegInfo)"
++ connect  RegManager(0x1684af87d60) 's signal  "doRegsiterInfo(RegInfo)"  to  FSData(0x1684e8c93f0) 's slot  "onRegsiterInfo(RegInfo)"
++ connect  RegManager(0x1684af87d60) 's signal  "doRegsiterInfo(RegInfo)"  to  NormalDataTransfer(0x1684af87e80) 's slot  "onRegsiterInfo(RegInfo)"
++ connect  RegManager(0x1684af87d60) 's signal  "doRegsiterInfo(RegInfo)"  to  DataExporter(0x1684af87ce0) 's slot  "onRegsiterInfo(RegInfo)"
++ connect  RegManager(0x1684af87d60) 's signal  "doDeadlyError(QString)"  to  UserInterface(0x1684af881c0) 's slot  "onDeadlyError(QString)"
++ connect  NormalDataTransfer(0x1684af87e80) 's signal  "doCallDbFile(QString)"  to  DataDriver(0x1684af319c0) 's slot  "onCallDbFile(QString)"
++ connect  NormalDataTransfer(0x1684af87e80) 's signal  "doCallDbFile(QString)"  to  DataAnalyser(0x1684af31ba0) 's slot  "onCallDbFile(QString)"
++ connect  NormalDataTransfer(0x1684af87e80) 's signal  "doContactDbFile(QString)"  to  DataDriver(0x1684af319c0) 's slot  "onContactDbFile(QString)"
++ connect  NormalDataTransfer(0x1684af87e80) 's signal  "doContactDbFile(QString)"  to  DataAnalyser(0x1684af31ba0) 's slot  "onContactDbFile(QString)"
++ connect  NormalDataTransfer(0x1684af87e80) 's signal  "doMessageDbFile(QString)"  to  DataDriver(0x1684af319c0) 's slot  "onMessageDbFile(QString)"
++ connect  NormalDataTransfer(0x1684af87e80) 's signal  "doMessageDbFile(QString)"  to  DataAnalyser(0x1684af31ba0) 's slot  "onMessageDbFile(QString)"
++ connect  NormalDataTransfer(0x1684af87e80) 's signal  "doWhatsAppDbFile(QString)"  to  DataDriver(0x1684af319c0) 's slot  "onWhatsAppDbFile(QString)"
++ connect  NormalDataTransfer(0x1684af87e80) 's signal  "doWhatsAppDbFile(QString)"  to  DataAnalyser(0x1684af31ba0) 's slot  "onWhatsAppDbFile(QString)"
++ connect  NormalDataTransfer(0x1684af87e80) 's signal  "doDataItem(DataItem)"  to  UserInterface(0x1684af881c0) 's slot  "onDataItem(DataItem)"
++ connect  NormalDataTransfer(0x1684af87e80) 's signal  "doDataItem(DataItem)"  to  DataExporter(0x1684af87ce0) 's slot  "onDataItem(DataItem)"
++ connect  NormalDataTransfer(0x1684af87e80) 's signal  "doAndroidInfo(AndroidInfo)"  to  UserInterface(0x1684af881c0) 's slot  "onAndroidInfo(AndroidInfo)"
++ connect  NormalDataTransfer(0x1684af87e80) 's signal  "doAndroidInfo(AndroidInfo)"  to  AndroidDevice(0x1684e8a27c0) 's slot  "onAndroidInfo(AndroidInfo)"
++ connect  NormalDataTransfer(0x1684af87e80) 's signal  "doAndroidInfo(AndroidInfo)"  to  DataTransfer(0x1684af87ee0) 's slot  "onAndroidInfo(AndroidInfo)"
++ connect  NormalDataTransfer(0x1684af87e80) 's signal  "doScanProgress(int,int)"  to  UserInterface(0x1684af881c0) 's slot  "onScanProgress(int,int)"
++ connect  NormalDataTransfer(0x1684af87e80) 's signal  "doScanFinished(bool)"  to  UserInterface(0x1684af881c0) 's slot  "onScanFinished(bool)"
++ connect  NormalDataTransfer(0x1684af87e80) 's signal  "doScanFinished(bool)"  to  DataDriver(0x1684af319c0) 's slot  "onScanFinished(bool)"
++ connect  NormalDataTransfer(0x1684af87e80) 's signal  "doSmsAttachmentPath(QString)"  to  UserInterface(0x1684af881c0) 's slot  "onSmsAttachmentPath(QString)"
++ connect  NormalDataTransfer(0x1684af87e80) 's signal  "doSmsAttachmentPath(QString)"  to  DataExporter(0x1684af87ce0) 's slot  "onSmsAttachmentPath(QString)"
++ connect  NormalDataTransfer(0x1684af87e80) 's signal  "doNameListForCmp(QStringList)"  to  FSData(0x1684e8c93f0) 's slot  "onNameListForCmp(QStringList)"
++ connect  DataDriver(0x1684af319c0) 's signal  "doRegsiterInfo(RegInfo)"  to  UserInterface(0x1684af881c0) 's slot  "onRegsiterInfo(RegInfo)"
++ connect  DataDriver(0x1684af319c0) 's signal  "doRegsiterInfo(RegInfo)"  to  FSData(0x1684e8c93f0) 's slot  "onRegsiterInfo(RegInfo)"
++ connect  DataDriver(0x1684af319c0) 's signal  "doRegsiterInfo(RegInfo)"  to  NormalDataTransfer(0x1684af87e80) 's slot  "onRegsiterInfo(RegInfo)"
++ connect  DataDriver(0x1684af319c0) 's signal  "doRegsiterInfo(RegInfo)"  to  DataExporter(0x1684af87ce0) 's slot  "onRegsiterInfo(RegInfo)"
++ connect  DataDriver(0x1684af319c0) 's signal  "doConnectionInfo(ConnectionInfo)"  to  UserInterface(0x1684af881c0) 's slot  "onConnectionInfo(ConnectionInfo)"
++ connect  DataDriver(0x1684af319c0) 's signal  "doConnectionInfo(ConnectionInfo)"  to  FSData(0x1684e8c93f0) 's slot  "onConnectionInfo(ConnectionInfo)"
++ connect  DataDriver(0x1684af319c0) 's signal  "doConnectionInfo(ConnectionInfo)"  to  NormalDataTransfer(0x1684af87e80) 's slot  "onConnectionInfo(ConnectionInfo)"
++ connect  DataDriver(0x1684af319c0) 's signal  "doDeviceDebuggingInfo(DeviceDebuggingInfo)"  to  UserInterface(0x1684af881c0) 's slot  "onDeviceDebuggingInfo(DeviceDebuggingInfo)"
++ connect  DataDriver(0x1684af319c0) 's signal  "doAndroidInfo(AndroidInfo)"  to  UserInterface(0x1684af881c0) 's slot  "onAndroidInfo(AndroidInfo)"
++ connect  DataDriver(0x1684af319c0) 's signal  "doAndroidInfo(AndroidInfo)"  to  AndroidDevice(0x1684e8a27c0) 's slot  "onAndroidInfo(AndroidInfo)"
++ connect  DataDriver(0x1684af319c0) 's signal  "doAndroidInfo(AndroidInfo)"  to  DataTransfer(0x1684af87ee0) 's slot  "onAndroidInfo(AndroidInfo)"
++ connect  DataDriver(0x1684af319c0) 's signal  "doScanProgress(int,int)"  to  UserInterface(0x1684af881c0) 's slot  "onScanProgress(int,int)"
++ connect  DataDriver(0x1684af319c0) 's signal  "doScanFinished(bool)"  to  UserInterface(0x1684af881c0) 's slot  "onScanFinished(bool)"
++ connect  DataDriver(0x1684af319c0) 's signal  "doScanFinished(bool)"  to  DataDriver(0x1684af319c0) 's slot  "onScanFinished(bool)"
++ connect  DataDriver(0x1684af319c0) 's signal  "doAnalysisFinished(bool)"  to  UserInterface(0x1684af881c0) 's slot  "onAnalysisFinished(bool)"
++ connect  DataDriver(0x1684af319c0) 's signal  "doAnalysisFinished(bool)"  to  DataDriver(0x1684af319c0) 's slot  "onAnalysisFinished(bool)"
++ connect  DataDriver(0x1684af319c0) 's signal  "doDeviceInfo(DeviceInfo)"  to  UserInterface(0x1684af881c0) 's slot  "onDeviceInfo(DeviceInfo)"
++ connect  DataDriver(0x1684af319c0) 's signal  "doDeviceInfo(DeviceInfo)"  to  DataTransfer(0x1684af87ee0) 's slot  "onDeviceInfo(DeviceInfo)"
++ connect  DataDriver(0x1684af319c0) 's signal  "doDeviceInfo(DeviceInfo)"  to  NormalDataTransfer(0x1684af87e80) 's slot  "onDeviceInfo(DeviceInfo)"
++ connect  DataDriver(0x1684af319c0) 's signal  "doDeviceInfo(DeviceInfo)"  to  DataExporter(0x1684af87ce0) 's slot  "onDeviceInfo(DeviceInfo)"
++ connect  DataDriver(0x1684af319c0) 's signal  "doDataItem(DataItem)"  to  UserInterface(0x1684af881c0) 's slot  "onDataItem(DataItem)"
++ connect  DataDriver(0x1684af319c0) 's signal  "doDataItem(DataItem)"  to  DataExporter(0x1684af87ce0) 's slot  "onDataItem(DataItem)"
++ connect  DataDriver(0x1684af319c0) 's signal  "doRecoverProgress(int,int)"  to  UserInterface(0x1684af881c0) 's slot  "onRecoverProgress(int,int)"
++ connect  DataDriver(0x1684af319c0) 's signal  "doCallDbFile(QString)"  to  DataDriver(0x1684af319c0) 's slot  "onCallDbFile(QString)"
++ connect  DataDriver(0x1684af319c0) 's signal  "doCallDbFile(QString)"  to  DataAnalyser(0x1684af31ba0) 's slot  "onCallDbFile(QString)"
++ connect  DataDriver(0x1684af319c0) 's signal  "doContactDbFile(QString)"  to  DataDriver(0x1684af319c0) 's slot  "onContactDbFile(QString)"
++ connect  DataDriver(0x1684af319c0) 's signal  "doContactDbFile(QString)"  to  DataAnalyser(0x1684af31ba0) 's slot  "onContactDbFile(QString)"
++ connect  DataDriver(0x1684af319c0) 's signal  "doMessageDbFile(QString)"  to  DataDriver(0x1684af319c0) 's slot  "onMessageDbFile(QString)"
++ connect  DataDriver(0x1684af319c0) 's signal  "doMessageDbFile(QString)"  to  DataAnalyser(0x1684af31ba0) 's slot  "onMessageDbFile(QString)"
++ connect  DataDriver(0x1684af319c0) 's signal  "doWhatsAppDbFile(QString)"  to  DataDriver(0x1684af319c0) 's slot  "onWhatsAppDbFile(QString)"
++ connect  DataDriver(0x1684af319c0) 's signal  "doWhatsAppDbFile(QString)"  to  DataAnalyser(0x1684af31ba0) 's slot  "onWhatsAppDbFile(QString)"
++ connect  AndroidDevice(0x1684e8a27c0) 's signal  "doInstallDriverFinished(bool)"  to  UserInterface(0x1684af881c0) 's slot  "onInstallDriverFinished(bool)"
++ connect  AndroidDevice(0x1684e8a27c0) 's signal  "doConnectionInfo(ConnectionInfo)"  to  UserInterface(0x1684af881c0) 's slot  "onConnectionInfo(ConnectionInfo)"
++ connect  AndroidDevice(0x1684e8a27c0) 's signal  "doConnectionInfo(ConnectionInfo)"  to  FSData(0x1684e8c93f0) 's slot  "onConnectionInfo(ConnectionInfo)"
++ connect  AndroidDevice(0x1684e8a27c0) 's signal  "doConnectionInfo(ConnectionInfo)"  to  NormalDataTransfer(0x1684af87e80) 's slot  "onConnectionInfo(ConnectionInfo)"
++ connect  AndroidDevice(0x1684e8a27c0) 's signal  "doDeviceDebuggingInfo(DeviceDebuggingInfo)"  to  UserInterface(0x1684af881c0) 's slot  "onDeviceDebuggingInfo(DeviceDebuggingInfo)"
++ connect  AndroidDevice(0x1684e8a27c0) 's signal  "doDeviceInfo(DeviceInfo)"  to  UserInterface(0x1684af881c0) 's slot  "onDeviceInfo(DeviceInfo)"
++ connect  AndroidDevice(0x1684e8a27c0) 's signal  "doDeviceInfo(DeviceInfo)"  to  DataTransfer(0x1684af87ee0) 's slot  "onDeviceInfo(DeviceInfo)"
++ connect  AndroidDevice(0x1684e8a27c0) 's signal  "doDeviceInfo(DeviceInfo)"  to  NormalDataTransfer(0x1684af87e80) 's slot  "onDeviceInfo(DeviceInfo)"
++ connect  AndroidDevice(0x1684e8a27c0) 's signal  "doDeviceInfo(DeviceInfo)"  to  DataExporter(0x1684af87ce0) 's slot  "onDeviceInfo(DeviceInfo)"
++ connect  AndroidDevice(0x1684e8a27c0) 's signal  "doDeviceVid(QString)"  to  NormalDataTransfer(0x1684af87e80) 's slot  "onDeviceVid(QString)"
++ connect  AndroidDevice(0x1684e8a27c0) 's signal  "doDeviceExtSdcardPath(QStringList)"  to  NormalDataTransfer(0x1684af87e80) 's slot  "onDeviceExtSdcardPath(QStringList)"
++ connect  AndroidDevice(0x1684e8a27c0) 's signal  "doExPartitions(QList<QHash<QString,qint64> >)"  to  DataTransfer(0x1684af87ee0) 's slot  "onExPartitions(QList<QHash<QString,qint64> >)"
++ connect  AndroidDevice(0x1684e8a27c0) 's signal  "doDriverDownloadProgress(qlonglong,qlonglong,bool)"  to  UserInterface(0x1684af881c0) 's slot  "onDriverDownloadProgress(qlonglong,qlonglong,bool)"
++ connect  AndroidDevice(0x1684e8a27c0) 's signal  "doDriverInstalled(bool,bool)"  to  UserInterface(0x1684af881c0) 's slot  "onDriverInstalled(bool,bool)"
+getInfo()
+register information
+0x4a74
+0x3b14
+ QDir( "C:/Program Files/MiniTool Mobile Recovery for Android/config" , nameFilters = { * },  QDir::SortFlags( Name | IgnoreCase ) , QDir::Filters( Dirs|Files|Drives|AllEntries ) ) 
+RegInfo.usableDate: ""
+RegInfo.currentDate: "20220220"
+比较 adbInterfaceOn false false
+Signal Net Error,Regedit: "4F390F96D29747EB6ED21CEDF0A85F0A52622E03" ,NeedUp: false
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+driver download started
+driver download finished: 1
+start decompression
+start install
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+"Setup driver, exitCode: 256"
+比较 adbInterfaceOn false false
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+Driver has been installed
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+比较 adbInterfaceOn false false
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getlastError:  -1
+ntransfer get vid step1(deviceListen) : "VID_1004"
+driveOn step2 (emit singal to manager):  false
+"device connect: id -> LMK520Y5VOEYVKCUSO"
+ntransfer get vid step2(listenManager): "VID_1004"
+ntransfer get vid step3(interface) "VID_1004"
+ntransfer get vid:  "VID_1004"
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+"device disconnect: id -> LMK520Y5VOEYVKCUSO"
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+比较 adbInterfaceOn false false
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+比较 adbInterfaceOn false false
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+比较 adbInterfaceOn false false
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getlastError:  -1
+ntransfer get vid step1(deviceListen) : "VID_1004"
+driveOn step2 (emit singal to manager):  false
+"device connect: id -> LMK520Y5VOEYVKCUSO"
+ntransfer get vid step2(listenManager): "VID_1004"
+ntransfer get vid step3(interface) "VID_1004"
+ntransfer get vid:  "VID_1004"
+"device disconnect: id -> LMK520Y5VOEYVKCUSO"
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+QObject::startTimer: Timers cannot be started from another thread
+getlastError:  -1
+QObject::killTimer: Timers cannot be stopped from another thread
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+ntransfer get vid step1(deviceListen) : "VID_1004"
+driveOn step2 (emit singal to manager):  false
+"device connect: id -> LMK520Y5VOEYVKCUSO"
+ntransfer get vid step2(listenManager): "VID_1004"
+ntransfer get vid step3(interface) "VID_1004"
+ntransfer get vid:  "VID_1004"
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getlastError:  -1
+比较 adbInterfaceOn false false
+getlastError:  -1
+比较 adbInterfaceOn false false
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+"device disconnect: id -> LMK520Y5VOEYVKCUSO"
+QObject::startTimer: Timers cannot be started from another thread
+getlastError:  -1
+QObject::killTimer: Timers cannot be stopped from another thread
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+ntransfer get vid step1(deviceListen) : "VID_1004"
+driveOn step2 (emit singal to manager):  false
+"device connect: id -> LMK520Y5VOEYVKCUSO"
+ntransfer get vid step2(listenManager): "VID_1004"
+ntransfer get vid step3(interface) "VID_1004"
+ntransfer get vid:  "VID_1004"
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+"device disconnect: id -> LMK520Y5VOEYVKCUSO"
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+QObject::startTimer: Timers cannot be started from another thread
+getlastError:  -1
+QObject::killTimer: Timers cannot be stopped from another thread
+ntransfer get vid step1(deviceListen) : "VID_1004"
+driveOn step2 (emit singal to manager):  false
+"device connect: id -> LMK520Y5VOEYVKCUSO"
+ntransfer get vid step2(listenManager): "VID_1004"
+ntransfer get vid step3(interface) "VID_1004"
+ntransfer get vid:  "VID_1004"
+getlastError:  -1
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+比较 adbInterfaceOn false false
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+"device disconnect: id -> LMK520Y5VOEYVKCUSO"
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+比较 adbInterfaceOn false false
+"{3f966bd9-fa04-4ec5-991c-d326973b5128}"
+driveOn step1 (read from interface):  true
+比较 adbInterfaceOn false true
+ntransfer get vid step1(deviceListen) : ""
+driveOn step2 (emit singal to manager):  true
+"device connect: id -> "
+driveOn step3 (manager):  true
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+QIODevice::read: device not open
+adb devices: 
+"LMK520Y5VOEYVKCUSO	unauthorized"
+device is untrusted
+ntransfer get vid step2(listenManager): ""
+ntransfer get vid step3(interface) ""
+ntransfer get vid:  ""
+QIODevice::read: device not open
+adb devices: 
+"LMK520Y5VOEYVKCUSO	device"
+device is trusted
+ntransfer get vid step2(listenManager): ""
+ntransfer get vid step3(interface) ""
+ntransfer get vid:  ""
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+比较 adbInterfaceOn true false
+ntransfer get vid step1(deviceListen) : ""
+driveOn step2 (emit singal to manager):  false
+"device connect: id -> "
+ntransfer get vid step2(listenManager): ""
+ntransfer get vid step3(interface) ""
+ntransfer get vid:  ""
+比较 adbInterfaceOn false false
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+比较 adbInterfaceOn false false
+比较 adbInterfaceOn false false
+比较 adbInterfaceOn false false
+比较 adbInterfaceOn false false
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+比较 adbInterfaceOn false false
+"{3f966bd9-fa04-4ec5-991c-d326973b5128}"
+driveOn step1 (read from interface):  true
+比较 adbInterfaceOn false true
+ntransfer get vid step1(deviceListen) : ""
+driveOn step2 (emit singal to manager):  true
+"device connect: id -> "
+driveOn step3 (manager):  true
+QIODevice::read: device not open
+adb devices: 
+QIODevice::read: device not open
+adb devices: 
+"LMK520Y5VOEYVKCUSO	unauthorized"
+device is untrusted
+ntransfer get vid step2(listenManager): ""
+ntransfer get vid step3(interface) ""
+ntransfer get vid:  ""
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+QIODevice::read: device not open
+adb devices: 
+"LMK520Y5VOEYVKCUSO	unauthorized"
+device is untrusted
+ntransfer get vid step2(listenManager): ""
+ntransfer get vid step3(interface) ""
+ntransfer get vid:  ""
+QIODevice::read: device not open
+adb devices: 
+"LMK520Y5VOEYVKCUSO	unauthorized"
+device is untrusted
+ntransfer get vid step2(listenManager): ""
+ntransfer get vid step3(interface) ""
+ntransfer get vid:  ""
+QIODevice::read: device not open
+adb devices: 
+"LMK520Y5VOEYVKCUSO	unauthorized"
+device is untrusted
+ntransfer get vid step2(listenManager): ""
+ntransfer get vid step3(interface) ""
+ntransfer get vid:  ""
+QIODevice::read: device not open
+adb devices: 
+"LMK520Y5VOEYVKCUSO	unauthorized"
+device is untrusted
+ntransfer get vid step2(listenManager): ""
+ntransfer get vid step3(interface) ""
+ntransfer get vid:  ""
+QIODevice::read: device not open
+adb devices: 
+"LMK520Y5VOEYVKCUSO	unauthorized"
+device is untrusted
+ntransfer get vid step2(listenManager): ""
+ntransfer get vid step3(interface) ""
+ntransfer get vid:  ""
+QIODevice::read: device not open
+adb devices: 
+"LMK520Y5VOEYVKCUSO	unauthorized"
+device is untrusted
+ntransfer get vid step2(listenManager): ""
+ntransfer get vid step3(interface) ""
+ntransfer get vid:  ""
+QIODevice::read: device not open
+adb devices: 
+"LMK520Y5VOEYVKCUSO	unauthorized"
+device is untrusted
+ntransfer get vid step2(listenManager): ""
+ntransfer get vid step3(interface) ""
+ntransfer get vid:  ""
+QIODevice::read: device not open
+adb devices: 
+"LMK520Y5VOEYVKCUSO	unauthorized"
+device is untrusted
+ntransfer get vid step2(listenManager): ""
+ntransfer get vid step3(interface) ""
+ntransfer get vid:  ""
+QIODevice::read: device not open
+adb devices: 
+"LMK520Y5VOEYVKCUSO	unauthorized"
+device is untrusted
+ntransfer get vid step2(listenManager): ""
+ntransfer get vid step3(interface) ""
+ntransfer get vid:  ""
+QIODevice::read: device not open
+adb devices: 
+"LMK520Y5VOEYVKCUSO	unauthorized"
+device is untrusted
+ntransfer get vid step2(listenManager): ""
+ntransfer get vid step3(interface) ""
+ntransfer get vid:  ""
+QIODevice::read: device not open
+adb devices: 
+"LMK520Y5VOEYVKCUSO	unauthorized"
+device is untrusted
+ntransfer get vid step2(listenManager): ""
+ntransfer get vid step3(interface) ""
+ntransfer get vid:  ""
+QIODevice::read: device not open
+adb devices: 
+"LMK520Y5VOEYVKCUSO	unauthorized"
+device is untrusted
+ntransfer get vid step2(listenManager): ""
+ntransfer get vid step3(interface) ""
+ntransfer get vid:  ""
+QIODevice::read: device not open
+adb devices: 
+"LMK520Y5VOEYVKCUSO	unauthorized"
+device is untrusted
+ntransfer get vid step2(listenManager): ""
+ntransfer get vid step3(interface) ""
+ntransfer get vid:  ""
+QIODevice::read: device not open
+adb devices: 
+"LMK520Y5VOEYVKCUSO	unauthorized"
+device is untrusted
+ntransfer get vid step2(listenManager): ""
+ntransfer get vid step3(interface) ""
+ntransfer get vid:  ""
+QIODevice::read: device not open
+adb devices: 
+"LMK520Y5VOEYVKCUSO	unauthorized"
+device is untrusted
+ntransfer get vid step2(listenManager): ""
+ntransfer get vid step3(interface) ""
+ntransfer get vid:  ""
+QIODevice::read: device not open
+adb devices: 
+"LMK520Y5VOEYVKCUSO	unauthorized"
+device is untrusted
+ntransfer get vid step2(listenManager): ""
+ntransfer get vid step3(interface) ""
+ntransfer get vid:  ""
+QIODevice::read: device not open
+adb devices: 
+"LMK520Y5VOEYVKCUSO	unauthorized"
+device is untrusted
+ntransfer get vid step2(listenManager): ""
+ntransfer get vid step3(interface) ""
+ntransfer get vid:  ""
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+QIODevice::read: device not open
+adb devices: 
+"LMK520Y5VOEYVKCUSO	unauthorized"
+device is untrusted
+ntransfer get vid step2(listenManager): ""
+ntransfer get vid step3(interface) ""
+ntransfer get vid:  ""
+QIODevice::read: device not open
+adb devices: 
+"LMK520Y5VOEYVKCUSO	unauthorized"
+device is untrusted
+ntransfer get vid step2(listenManager): ""
+ntransfer get vid step3(interface) ""
+ntransfer get vid:  ""
+QIODevice::read: device not open
+adb devices: 
+"LMK520Y5VOEYVKCUSO	unauthorized"
+device is untrusted
+ntransfer get vid step2(listenManager): ""
+ntransfer get vid step3(interface) ""
+ntransfer get vid:  ""
+QIODevice::read: device not open
+adb devices: 
+"LMK520Y5VOEYVKCUSO	unauthorized"
+device is untrusted
+ntransfer get vid step2(listenManager): ""
+ntransfer get vid step3(interface) ""
+ntransfer get vid:  ""
+QIODevice::read: device not open
+adb devices: 
+"LMK520Y5VOEYVKCUSO	unauthorized"
+device is untrusted
+ntransfer get vid step2(listenManager): ""
+ntransfer get vid step3(interface) ""
+ntransfer get vid:  ""
+QIODevice::read: device not open
+adb devices: 
+"LMK520Y5VOEYVKCUSO	unauthorized"
+device is untrusted
+ntransfer get vid step2(listenManager): ""
+ntransfer get vid step3(interface) ""
+ntransfer get vid:  ""
+QIODevice::read: device not open
+adb devices: 
+"LMK520Y5VOEYVKCUSO	unauthorized"
+device is untrusted
+ntransfer get vid step2(listenManager): ""
+ntransfer get vid step3(interface) ""
+ntransfer get vid:  ""
+QIODevice::read: device not open
+adb devices: 
+"LMK520Y5VOEYVKCUSO	unauthorized"
+device is untrusted
+ntransfer get vid step2(listenManager): ""
+ntransfer get vid step3(interface) ""
+ntransfer get vid:  ""
+QIODevice::read: device not open
+adb devices: 
+"LMK520Y5VOEYVKCUSO	unauthorized"
+device is untrusted
+ntransfer get vid step2(listenManager): ""
+ntransfer get vid step3(interface) ""
+ntransfer get vid:  ""
+QIODevice::read: device not open
+adb devices: 
+"LMK520Y5VOEYVKCUSO	unauthorized"
+device is untrusted
+ntransfer get vid step2(listenManager): ""
+ntransfer get vid step3(interface) ""
+ntransfer get vid:  ""
+QIODevice::read: device not open
+比较 adbInterfaceOn true false
+ntransfer get vid step1(deviceListen) : ""
+driveOn step2 (emit singal to manager):  false
+"device connect: id -> "
+ntransfer get vid step2(listenManager): ""
+ntransfer get vid step3(interface) ""
+ntransfer get vid:  ""
+adb devices: 
+QIODevice::read: device not open
+比较 adbInterfaceOn false false
+adb devices: 
+QIODevice::read: device not open
+adb devices: 
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+QIODevice::read: device not open
+adb devices: 
+QIODevice::read: device not open
+adb devices: 
+QIODevice::read: device not open
+adb devices: 
+QIODevice::read: device not open
+adb devices: 
+QIODevice::read: device not open
+adb devices: 
+QIODevice::read: device not open
+adb devices: 
+QIODevice::read: device not open
+adb devices: 
+QIODevice::read: device not open
+adb devices: 
+QIODevice::read: device not open
+adb devices: 
+QIODevice::read: device not open
+adb devices: 
+QIODevice::read: device not open
+adb devices: 
+QIODevice::read: device not open
+adb devices: 
+QIODevice::read: device not open
+adb devices: 
+QIODevice::read: device not open
+adb devices: 
+QIODevice::read: device not open
+adb devices: 
+QIODevice::read: device not open
+adb devices: 
+QIODevice::read: device not open
+adb devices: 
+QIODevice::read: device not open
+adb devices: 
+QIODevice::read: device not open
+adb devices: 
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+QIODevice::read: device not open
+adb devices: 
+QIODevice::read: device not open
+adb devices: 
+QIODevice::read: device not open
+adb devices: 
+QIODevice::read: device not open
+adb devices: 
+QIODevice::read: device not open
+adb devices: 
+QIODevice::read: device not open
+adb devices: 
+QIODevice::read: device not open
+adb devices: 
+QIODevice::read: device not open
+adb devices: 
+QIODevice::read: device not open
+adb devices: 
+QIODevice::read: device not open
+adb devices: 
+QIODevice::read: device not open
+adb devices: 
+QIODevice::read: device not open
+adb devices: 
+比较 adbInterfaceOn false false
+QIODevice::read: device not open
+adb devices: 
+QIODevice::read: device not open
+adb devices: 
+QIODevice::read: device not open
+adb devices: 
+QIODevice::read: device not open
+adb devices: 
+QIODevice::read: device not open
+adb devices: 
+QIODevice::read: device not open
+adb devices: 
+QIODevice::read: device not open
+adb devices: 
+QIODevice::read: device not open
+adb devices: 
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+QIODevice::read: device not open
+adb devices: 
+QIODevice::read: device not open
+adb devices: 
+QIODevice::read: device not open
+adb devices: 
+QIODevice::read: device not open
+adb devices: 
+QIODevice::read: device not open
+adb devices: 
+QIODevice::read: device not open
+adb devices: 
+QIODevice::read: device not open
+adb devices: 
+QIODevice::read: device not open
+adb devices: 
+QIODevice::read: device not open
+adb devices: 
+QIODevice::read: device not open
+adb devices: 
+QIODevice::read: device not open
+比较 adbInterfaceOn false false
+adb devices: 
+QIODevice::read: device not open
+adb devices: 
+QIODevice::read: device not open
+adb devices: 
+QIODevice::read: device not open
+adb devices: 
+QIODevice::read: device not open
+adb devices: 
+QIODevice::read: device not open
+adb devices: 
+QIODevice::read: device not open
+adb devices: 
+QIODevice::read: device not open
+adb devices: 
+QIODevice::read: device not open
+比较 adbInterfaceOn false false
+adb devices: 
+QIODevice::read: device not open
+比较 adbInterfaceOn false false
+adb devices: 
+QIODevice::read: device not open
+getRemoveableVolume
+getRemoveableVolume success
+sd paths:  QHash()
+refreshSdInfo
+()
+adb devices: 
+QIODevice::read: device not open

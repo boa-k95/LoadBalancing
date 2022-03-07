@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Feb 02 10:10:22 CET 2022
+https\://repo.maven.apache.org/maven2/.lastUpdated=1643793022594
+@default-Artifactory\ local-repos-C\:\\local-repository/.lastUpdated=1643793011775
+C\:\\local-repository/.error=Could not transfer artifact org.springframework.boot\:spring-boot\:jar\:2.5.7 from/to Artifactory local-repos (C\:\\local-repository)\: Cannot access C\:\\local-repository with type default using the available connector factories\: BasicRepositoryConnectorFactory

@@ -1,0 +1,15 @@
+[02/20/2022 20:52.42.928] WudfCoInstaller: ReadWdfSection: Checking WdfSection [MTP.NT.Wdf]
+
+[02/20/2022 20:52.42.939] WudfCoInstaller: UMDF Service WpdMtpDriver is already installed - removing existing settings in preparation for setting new ones.
+
+[02/20/2022 20:52.42.960] WudfCoInstaller: Configuring UMDF Service WpdMtpDriver.
+
+[02/20/2022 20:52.43.026] WudfCoInstaller: ImpersonationLevel set to 2
+
+[02/20/2022 20:52.43.039] WudfCoInstaller: KernelModeClientPolicy set to 1
+
+[02/20/2022 20:52.43.058] WudfCoInstaller: Final status: error(0) Operazione completata.
+
+
+[02/20/2022 20:52.43.843] WudfCoInstaller: Created marker file C:\Windows\system32\drivers\Msft_User_WpdMtpDr_01_11_00.Wdf.
+

@@ -1,0 +1,11 @@
+﻿[General]
+version=1.0.1.1
+type=full
+text="Detect New Version <font color="red">V1.0.1.1</font> <br> Click <font color="red">"Update Now"</font> to get the latest version.<br>
+For more information, view change logs.<br>
+http://www.minitool.com/android-recovery/change-log.html"
+driver_md5=6b50972bc4b88559781d310c6896209e
+driver_regedit=4F390F96D29747EB6ED21CEDF0A85F0A52622E03
+[install.exe]
+hash=
+file=http://www.minitool.com/AF907B8F-AB22-6855-4AEC-F4830F864FF3/adr/ADRsetup_free_b443_r1593.exe

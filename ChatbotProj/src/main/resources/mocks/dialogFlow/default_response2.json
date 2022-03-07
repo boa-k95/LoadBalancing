@@ -1,0 +1,40 @@
+{
+  "responseId": "7f268044-7f35-4dac-acda-a386087d0fbb-e9fa6883",
+  "queryResult": {
+    "queryText": "Mi serve un numero tra 20 e 30",
+    "action": "get_numero_casuale",
+    "parameters": {
+      "number": [
+        20,
+        30
+      ]
+    },
+    "allRequiredParamsPresent": true,
+    "fulfillmentText": "$random_number",
+    "fulfillmentMessages": [
+      {
+        "text": {
+          "text": [
+            "$random_number"
+          ]
+        }
+      }
+    ],
+    "intent": {
+      "name": "projects/randomnumberagent2-brk9/agent/intents/5a4e44dc-7cdb-4e9e-bb1a-ee391861bbf5",
+      "displayName": "RandomNumberIntent",
+      "endInteraction": true
+    },
+    "intentDetectionConfidence": 1,
+    "diagnosticInfo": {
+      "end_conversation": true
+    },
+    "languageCode": "it",
+    "sentimentAnalysisResult": {
+      "queryTextSentiment": {
+        "score": -0.1,
+        "magnitude": 0.1
+      }
+    }
+  }
+}

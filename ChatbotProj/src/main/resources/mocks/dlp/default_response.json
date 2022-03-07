@@ -1,0 +1,17 @@
+{
+  "request": {
+    "method": "POST",
+    "url": ""
+  },
+  "response": {
+    "status": "200",
+    "jsonBody": {
+      "item": {
+        "value": "masked text"
+      }
+    },
+    "headers": {
+      "Content-Type": "application/json; charset=UTF-8"
+    }
+  }
+}

@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1fd9e195-6589-41cf-954f-78f7f91f4091" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/.idea/isp-config-env/configuration-bfix.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/.idea/isp-config-env/configuration-prod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/.idea/isp-config-env/configuration-svil.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/command/ConsoleDLPCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/command/DetectIntentCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/command/dto/ConsoleDLPCommandInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/command/dto/ConsoleDLPCommandOutput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/command/dto/DetectIntentCommandInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/command/dto/DetectIntentCommandOutput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/command/dto/EventDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/command/dto/OutputMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/command/dto/RandomNumberRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/command/dto/RandomNumberResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/connector/PostMessageRestConnector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/connector/dlp/dto/ContentServiceItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/connector/dlp/dto/ContentServiceRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/connector/dlp/dto/ContentServiceResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/connector/dlp/dto/CustomInfoType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/connector/dlp/dto/DLPLikelihood.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/connector/dlp/dto/DetectionRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/connector/dlp/dto/HotwordLikelihoodAdjustment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/connector/dlp/dto/HotwordProximity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/connector/dlp/dto/HotwordRegex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/connector/dlp/dto/HotwordRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/connector/dlp/dto/InfoType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/connector/dlp/dto/InfoTypeTransformations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/connector/dlp/dto/InspectConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/connector/dlp/dto/IntrospectionRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/connector/dlp/dto/IntrospectionRules.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/connector/dlp/dto/NewValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/connector/dlp/dto/PrimitiveTransformation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/connector/dlp/dto/ReplaceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/connector/dlp/dto/Transformation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/connector/dlp/google/agent/DetectIntentRestConnector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/connector/dlp/google/agent/dto/ActiveContextDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/connector/dlp/google/agent/dto/DetectIntentRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/connector/dlp/google/agent/dto/DetectIntentResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/connector/dlp/google/agent/dto/DetectIntentResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/connector/dlp/google/agent/dto/DetectIntentResultIntent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/connector/dlp/google/agent/dto/DetectIntentResultMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/connector/dlp/google/agent/dto/DetectIntentResultMessageText.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/connector/dlp/google/agent/dto/PostMessageRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/connector/dlp/google/agent/dto/PostMessageRestRequestTransformer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/connector/dlp/google/agent/dto/PostMessageRestResponseTransformer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/connector/dlp/google/agent/transformer/DetectIntentRestRequestTransformer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/connector/dlp/google/agent/transformer/DetectIntentRestResponseTransformer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/connector/dlp/google/token/AccessTokenRestConnector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/connector/dlp/google/token/dto/AccessTokenRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/connector/dlp/google/token/dto/AccessTokenResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/connector/dlp/google/token/model/AccessToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/connector/dlp/google/token/model/ChannelEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/connector/dlp/google/token/transformer/AccessTokenRestRequestTransformer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/connector/dlp/google/token/transformer/AccessTokenRestResponseTransformer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/consoleDLP/dto/ConsoleDLPRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/consoleDLP/dto/ConsoleDLPResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/controller/IntentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/controller/intent/dto/ChatDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/controller/intent/dto/CustomerDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/controller/intent/dto/DetectIntentRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/controller/intent/dto/DetectIntentResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/controller/intent/dto/DetectRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/controller/intent/dto/DetectResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/controller/intent/dto/ParametersDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/exceptions/DCCICommandException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/exceptions/DCCINoDialogflowResponseException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/exceptions/InvalidDialogflowResponseException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/exceptions/InvalidTaskResponseException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/exceptions/MalformedTimePeriodException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/exceptions/NoRequiredEventOrTextReceived.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/exceptions/NoRequiredParameterReceived.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/exceptions/ServiceException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/factory/CommonFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/factory/IntentControllerFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/model/ActiveContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/model/Chat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/model/CustomerTypeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/model/Event.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/model/FrontEndInputParameters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/model/GeneratedNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/model/InfoTypeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/model/OutputParameters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/model/ServicesCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/model/StateName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/service/ChatbotMessageJson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/service/ChatbotService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/service/GenerateRandomNumberService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/service/factory/AgentServiceFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/service/factory/AuthServiceFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/service/factory/ChatbotServiceFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/service/factory/ContentServiceFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/service/factory/RandomNumberFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/service/google/AgentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/service/google/AuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/service/google/ContentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/service/google/agent/dto/DetectIntentDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/service/google/connector/ContentServiceRestConnector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/service/google/connector/DetectIntentRestConnector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/service/google/trasfomers/inputTrasformers/ContentServiceRestRequestTransformer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/service/google/trasfomers/inputTrasformers/DetectIntentRestRquestTransformer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/service/google/trasfomers/outputTrasformers/ContentServiceRestResponseTransformer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/service/google/trasfomers/outputTrasformers/DetectIntentRestResponseTransformer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/task/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/task/TaskService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/task/TaskServiceFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/task/dto/TaskInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/task/dto/TaskOutput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/task/factory/TaskFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/task/impl/CompleteWithRandomNumberTextTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/java/util/DateTimeUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/resources/application-local-svil-app-ib.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/resources/application-local-test-app-ib.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/resources/mocks/accessToken/default_response.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/resources/mocks/dialogFlow/default_response.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/resources/mocks/dialogFlow/default_response2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/main/resources/mocks/dlp/default_response.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/test/java/test/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/test/java/test/factory/AgentServiceTestFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/test/java/test/factory/CommonTestCustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/test/java/test/service/AgentServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/test/java/test/service/AuthServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/test/java/test/service/ContentServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/test/java/test/service/factory/AgentServiceFactoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatbotProj/src/test/resources/application-unittests.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$USER_HOME$/.vscode/extensions/gabrielbb.vscode-lombok-1.0.1/node_modules/npm/node_modules/clone/clone.iml" afterDir="false" />
+      <change afterPath="$USER_HOME$/IdeaProjects/.idea/IdeaProjects.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstService/src/main/java/com/example/firstService/controller/firstController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstService/src/main/java/com/example/firstService/main/FirstServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstService/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../secondService/src/main/java/com/example/secondService/controller/secondController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../secondService/src/main/java/com/example/secondService/main/SecondServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../secondService/src/main/resources/application.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../Program Files/apache-maven-3.8.3(local)" />
+        <option name="userSettingsFile" value="C:\Program Files\apache-maven-3.8.3(local)\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="24CLf0WuD1aj6NSr4q68schrxsN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../firstService" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunManager">
+    <configuration name="GateWayApiServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.GateWayApiService.GateWayApiServiceApplication" />
+      <module name="GateWayApiService" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.GateWayApiService.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.GateWayApiServiceApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1fd9e195-6589-41cf-954f-78f7f91f4091" name="Default Changelist" comment="" />
+      <created>1643129724630</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1643129724630</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

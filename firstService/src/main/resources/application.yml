@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: first service
+  cloud:
+    compatibility-verifier:
+      enabled: false
+
+server:
+  port: 8081
+
+
+eureka:
+  instance:
+    preferIpAddress: true
+  client:
+    #healthcheck:
+     # enabled: false
+    service-url:
+      defaultZone: http://localhost:8089/eureka
+    fetch-registry: true
+    register-with-eureka: true
+
+
+
+

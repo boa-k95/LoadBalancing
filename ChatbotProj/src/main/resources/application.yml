@@ -1,0 +1,119 @@
+logging:
+  level:
+    root: INFO
+
+
+google:
+  integration:
+    cron: '0 0/12 * * * *'
+    amount: 15
+    unit: MINUTES
+  contexts:
+    lifespan:
+      10
+
+
+connectors:
+  bearInternalConfigurations:
+    default:
+      connectionPool:
+        readTimeout: 5000  # Il default è già 5 secondi
+        connectTimeout: 5000
+        connectRequestTimeout: 2000
+        idleTimeout: 60000
+        connectionSweeperInterval: 1200000  # 20 minuti
+        maxConnections: 200
+        enable: true
+        enabledTracing: true
+      timeout: 5000
+    items:
+      # ------------------ DCCI0 ----------------- #
+      PostMessageRestConnector:
+        url: ${URL_DCCI0_DIGCOLLASSISTANT_PULSE}/chatbot/message
+        method: POST
+        enableTracing: true
+        mocked: ${WS_MOCK:false}
+        randomMock: false
+        path: digcoll/
+        files:
+          - default_response.json
+
+      #--PulseRestConnector:
+        #--url: ${URL_DCCI0_DIGCOLLASSISTANT_PULSE}/welcome/getWelcomePulse
+        #--method: POST
+        #--enableTracing: true
+        #--mocked: ${WS_MOCK:false}
+        #--randomMock: false
+        #--path: pulse/
+          #--files:
+          #-- - pulse_aperta.json
+          # - pulse_chiusa.json
+  restConfigurations:
+    default:
+      connectionPool:
+        readTimeout: 5000  # Il default è già 5 secondi
+        connectTimeout: 5000
+        connectRequestTimeout: 2000
+        idleTimeout: 60000
+        connectionSweeperInterval: 1200000  # 20 minuti
+        maxConnections: 200
+        enable: true
+        enabledTracing: true
+      timeout: 5000
+    items:
+      # ----------------- Google ----------------- #
+      AccessTokenRestConnector:
+        connectionPool:
+          expectContinue: false
+        url: https://oauth2.googleapis.com/token
+        parameters:
+          #Parametri statici univochi
+          type: "service_account"
+          authUri: "https://accounts.google.com/o/oauth2/auth"
+          tokenUri: "https://oauth2.googleapis.com/token"
+          authProviderX509CertUrl: "https://www.googleapis.com/oauth2/v1/certs"
+          scope: ${GOOGLE_SCOPE}
+          # ------- Parametri dei Canali ------- #
+          app:
+            projectId: ${APP_GOOGLE_PROJECTID}
+            privateKeyId: ${APP_GOOGLE_PRIVATEKEYID}
+            privateKey: ${APP_GOOGLE_PRIVATEKEY}
+            clientEmail: ${APP_GOOGLE_CLIENTEMAIL}
+            clientId: ${APP_GOOGLE_CLIENTID}
+            clientX509CertUrl: ${APP_GOOGLE_CLIENTX509CERTURL}
+          ib:
+            projectId: ${IB_GOOGLE_PROJECTID}
+            privateKeyId: ${IB_GOOGLE_PRIVATEKEYID}
+            privateKey: ${IB_GOOGLE_PRIVATEKEY}
+            clientEmail: ${IB_GOOGLE_CLIENTEMAIL}
+            clientId: ${IB_GOOGLE_CLIENTID}
+            clientX509CertUrl: ${IB_GOOGLE_CLIENTX509CERTURL}
+        mocked: ${WS_MOCK:false}
+        randomMock: false
+        path: accessToken/
+        files:
+          - default_response.json
+      ContentServiceRestConnector:
+        connectionPool:
+          expectContinue: false
+        url: https://dlp.googleapis.com/v2/projects/{contentAgentProjectId}/content:deidentify
+        parameters:
+          appProjectId: ${APP_GOOGLE_PROJECTID}
+          ibProjectId: ${IB_GOOGLE_PROJECTID}
+        mocked: ${WS_MOCK:false}
+        randomMock: false
+        path: dlp/
+        files:
+          - default_response.json
+       DetectIntentRestConnector:
+        connectionPool:
+          expectContinue: false
+           url: https://dialogflow.googleapis.com/v2/projects/{detectAgentProjectId}/agent/sessions/{sessionId}:detectIntent
+          parameters:
+            appProjectId: ${APP_GOOGLE_PROJECTID}
+            ibProjectId: ${IB_GOOGLE_PROJECTID}
+          mocked: ${WS_MOCK:false}
+          randomMock: false
+          path: dialogflow/
+          files:
+            - default_response.json

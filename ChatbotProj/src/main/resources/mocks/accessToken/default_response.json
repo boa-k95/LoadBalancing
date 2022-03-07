@@ -1,0 +1,34 @@
+{
+  "responseId": "1f23094b-d660-4cce-b057-5ff3647a3957-e9fa6883",
+  "queryResult": {
+    "queryText": "Mi serve un numero casuale",
+    "action": "get_numero_casuale",
+    "parameters": {
+      "number": []
+    },
+    "allRequiredParamsPresent": true,
+    "fulfillmentText": "Ecco il tuo numero: $random_number",
+    "fulfillmentMessages": [
+      {
+        "text": {
+          "text": [
+            "Ecco il tuo numero: $random_number"
+          ]
+        }
+      }
+    ],
+    "intent": {
+      "name": "projects/randomnumberagent2-brk9/agent/intents/5a4e44dc-7cdb-4e9e-bb1a-ee391861bbf5",
+      "displayName": "RandomNumberIntent",
+      "endInteraction": true
+    },
+    "intentDetectionConfidence": 1,
+    "diagnosticInfo": {
+      "end_conversation": true
+    },
+    "languageCode": "it",
+    "sentimentAnalysisResult": {
+      "queryTextSentiment": {}
+    }
+  }
+}
